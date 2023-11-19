@@ -1,0 +1,11 @@
+.result {
+  background: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue),
+    var(--color-light-royal-blue)
+  );
+  height: 100%;
+  border-radius: 3rem;
+
+  /* max-width: 100%; */
+}
