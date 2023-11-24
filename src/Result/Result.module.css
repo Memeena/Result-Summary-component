@@ -17,6 +17,7 @@
 }
 
 .heading {
+  font-size: 2.4rem;
   color: vaR(--color-light-lavender);
 }
 
@@ -61,4 +62,26 @@
 
 .summary {
   text-align: center;
+}
+
+@media screen and (max-width: 37.5em) {
+  .summaryHeading {
+    font-size: 2.4rem;
+  }
+  .totalScore,
+  .summary {
+    font-size: 1.6rem;
+    font-weight: normal;
+  }
+
+  .circle {
+    height: 14rem;
+    width: 14rem;
+  }
+  .resultScore {
+    font-size: 5.6rem;
+  }
+  .heading {
+    font-size: 1.8rem;
+  }
 }

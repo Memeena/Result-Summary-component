@@ -38,6 +38,10 @@ h2 {
 }
 
 @media screen and (max-width: 37.5em) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
   .summary {
     padding: 3rem;
   }
