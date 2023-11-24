@@ -58,5 +58,6 @@ html {
   .main {
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr;
+    border-radius: 0;
   }
 }

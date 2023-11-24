@@ -84,4 +84,7 @@
   .heading {
     font-size: 1.8rem;
   }
+  .result {
+    border-radius: 0 0 3rem 3rem;
+  }
 }

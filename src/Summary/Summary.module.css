@@ -48,5 +48,6 @@ h2 {
 
   .item {
     padding: 0;
+    gap: 2rem;
   }
 }
