@@ -17,3 +17,9 @@
 .actualScore {
   color: var(--color-dark-gray-blue);
 }
+
+@media screen and (max-width: 37.5em) {
+  .summaryItem {
+    padding: 2rem;
+  }
+}

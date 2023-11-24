@@ -1,0 +1,64 @@
+.result {
+  background: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue),
+    var(--color-light-royal-blue)
+  );
+  height: 100%;
+  border-radius: 3rem;
+  padding: 3.8rem 5.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+
+  /* max-width: 100%; */
+}
+
+.heading {
+  color: vaR(--color-light-lavender);
+}
+
+.circle {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    var(--color-violet-blue),
+    var(--color-persian-blue)
+  );
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultScore {
+  font-size: 7.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.totalScore,
+.summary {
+  font-size: 1.8rem;
+  color: var(--color-light-lavender);
+}
+
+.resultSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summaryHeading {
+  font-size: 3.2rem;
+  color: var(--color-white);
+}
+
+.summary {
+  text-align: center;
+}

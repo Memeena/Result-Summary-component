@@ -43,3 +43,20 @@ html {
   grid-template-columns: 1fr 1fr;
   font-family: "Hanken Grotesk", sans-serif;
 }
+
+@media screen and (max-width: 45.62em) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .App {
+    height: auto;
+    background: none;
+  }
+  .main {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+}

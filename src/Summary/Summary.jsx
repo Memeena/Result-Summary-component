@@ -1,6 +1,6 @@
 import styles from "./Summary.module.css";
 import SummaryItem from "./SummaryItem";
-import data from "../data.json";
+import data from "../../data.json";
 
 const summaryItems = data.map(({ category, score, icon }) => (
   <SummaryItem category={category} score={score} icon={icon} />

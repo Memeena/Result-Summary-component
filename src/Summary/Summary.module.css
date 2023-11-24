@@ -20,9 +20,29 @@ h2 {
 
 .btn {
   background-color: var(--color-dark-gray-blue);
-  color: #e7e7e7;
+  color: var(--color-white);
+  font-weight: bold;
   border: none;
   font-size: 1.8rem;
   border-radius: 3rem;
   padding: 1.5rem 4rem;
+}
+
+.btn:visited,
+.btn:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue),
+    var(--color-light-royal-blue)
+  );
+}
+
+@media screen and (max-width: 37.5em) {
+  .summary {
+    padding: 3rem;
+  }
+
+  .item {
+    padding: 0;
+  }
 }
