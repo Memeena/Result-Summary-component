@@ -47,17 +47,18 @@ html {
 @media screen and (max-width: 45.62em) {
   .main {
     width: 100%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 37.5em) {
   .App {
-    height: auto;
     background: none;
+    align-items: start;
   }
   .main {
     grid-template-columns: none;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
     border-radius: 0;
   }
 }
