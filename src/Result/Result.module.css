@@ -53,6 +53,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .summaryHeading {
@@ -87,8 +88,5 @@
   .result {
     border-radius: 0 0 3rem 3rem;
     justify-content: start;
-  }
-  .resultSummary {
-    gap: 1rem;
   }
 }

@@ -5,7 +5,7 @@ export default function Result() {
     <div className={styles.result}>
       <h2 className={styles.heading}>Your Result</h2>
       <div className={styles.circle}>
-        <span className={styles.resultScore}>96</span>
+        <span className={styles.resultScore}>76</span>
         <span className={styles.totalScore}>of 100</span>
       </div>
       <div className={styles.resultSummary}>
